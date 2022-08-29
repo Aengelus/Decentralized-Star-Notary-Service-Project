@@ -12,8 +12,12 @@ contract StarNotary is ERC721 {
     }
 
     // Implement Task 1 Add a name and symbol properties
-    string public name = "My Personal Star";   // name: Is a short name to your token
-    string public symbol = "STAR";            // symbol: Is a short string like 'USD' -> 'American Dollar'
+    function name() public pure returns(string memory) {
+        return "My Personal Star";   // name: Is a short name to your token
+    }
+    function symbol() public pure returns(string memory) {
+        return "STAR";            // symbol: Is a short string like 'USD' -> 'American Dollar'
+    }
     
 
     // mapping the Star with the Owner Address
@@ -57,7 +61,7 @@ contract StarNotary is ERC721 {
     // Implement Task 1 lookUptokenIdToStarInfo
     function lookUptokenIdToStarInfo (uint _tokenId) public view returns (string memory) {
         //1. You should return the Star saved in tokenIdToStarInfo mapping
-        return tokenIdToStarInfo.get(_tokenId);
+        return tokenIdToStarInfo[_tokenId].name;
     }
 
     // Implement Task 1 Exchange Stars function
