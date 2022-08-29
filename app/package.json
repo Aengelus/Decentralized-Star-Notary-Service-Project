@@ -20,7 +20,7 @@
     "web3": "^1.7.5"
   },
   "main": "index.js",
-  "author": "",
+  "author": "Sascha Getzinger",
   "license": "ISC",
   "description": ""
 }
