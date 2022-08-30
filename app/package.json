@@ -7,7 +7,6 @@
     "dev": "webpack-dev-server"
   },
   "devDependencies": {
-    "@webpack-cli/serve": "^1.7.0",
     "copy-webpack-plugin": "5.1.2",
     "webpack": "4.46.0",
     "webpack-cli": "3.3.12",
@@ -22,5 +21,6 @@
   "main": "index.js",
   "author": "Sascha Getzinger",
   "license": "ISC",
+  "keywords": [],
   "description": ""
 }
