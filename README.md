@@ -4,7 +4,15 @@
 ### ToDo
 This Starter Code has already implemented the functionalities you implemented in the StarNotary (Version 2) exercise, and have comments in all the files you need to implement your tasks.
 
-
+## Versions
+Truffle v5.5.28 (core: 5.5.28)
+Ganache v7.4.0
+Solidity v0.5.16 (solc-js)
+Node v16.16.0
+Web3.js v1.7.4
+Ajv 8.11.0
+openzeppelin-solidity 2.3.0
+truffle-hdwallet-provider 1.0.17  
 
 ### Dependencies
 For this project, you will need to have:
